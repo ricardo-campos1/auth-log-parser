@@ -1,0 +1,65 @@
+Nov 12 06:00:01 web01 CRON[1888]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 12 06:00:01 web01 CRON[1888]: pam_unix(cron:session): session closed for user root
+Nov 12 06:12:44 web01 sshd[2107]: Accepted publickey for alice from 192.168.1.10 port 52210 ssh2: ED25519 SHA256:q3Vb8fJ1mPZ0rT5xKc2NwYhL9aE4uDs7GiO6vB1nRk0
+Nov 12 06:12:44 web01 sshd[2107]: pam_unix(sshd:session): session opened for user alice(uid=1001) by (uid=0)
+Nov 12 07:30:02 web01 sshd[2114]: Failed password for bob from 10.0.0.25 port 41822 ssh2
+Nov 12 07:30:09 web01 sshd[2114]: Accepted password for bob from 10.0.0.25 port 41822 ssh2
+Nov 12 07:30:09 web01 sshd[2114]: pam_unix(sshd:session): session opened for user bob(uid=1002) by (uid=0)
+Nov 12 08:14:05 web01 sshd[2121]: Invalid user admin from 198.51.100.23 port 50113
+Nov 12 08:14:07 web01 sshd[2121]: Failed password for invalid user admin from 198.51.100.23 port 50113 ssh2
+Nov 12 08:14:08 web01 sshd[2121]: Connection closed by invalid user admin 198.51.100.23 port 50113 [preauth]
+Nov 12 08:14:11 web01 sshd[2128]: Invalid user test from 198.51.100.23 port 50116
+Nov 12 08:14:13 web01 sshd[2128]: Failed password for invalid user test from 198.51.100.23 port 50116 ssh2
+Nov 12 08:14:14 web01 sshd[2128]: Connection closed by invalid user test 198.51.100.23 port 50116 [preauth]
+Nov 12 08:14:17 web01 sshd[2135]: Invalid user oracle from 198.51.100.23 port 50119
+Nov 12 08:14:19 web01 sshd[2135]: Failed password for invalid user oracle from 198.51.100.23 port 50119 ssh2
+Nov 12 08:14:20 web01 sshd[2135]: Connection closed by invalid user oracle 198.51.100.23 port 50119 [preauth]
+Nov 12 08:14:23 web01 sshd[2142]: Failed password for root from 198.51.100.23 port 50122 ssh2
+Nov 12 08:14:24 web01 sshd[2142]: Connection closed by authenticating user root 198.51.100.23 port 50122 [preauth]
+Nov 12 08:14:27 web01 sshd[2149]: Failed password for root from 198.51.100.23 port 50125 ssh2
+Nov 12 08:14:28 web01 sshd[2149]: Connection closed by authenticating user root 198.51.100.23 port 50125 [preauth]
+Nov 12 08:14:31 web01 sshd[2156]: Failed password for root from 198.51.100.23 port 50128 ssh2
+Nov 12 08:14:32 web01 sshd[2156]: Connection closed by authenticating user root 198.51.100.23 port 50128 [preauth]
+Nov 12 08:14:35 web01 sshd[2163]: Failed password for root from 198.51.100.23 port 50131 ssh2
+Nov 12 08:14:36 web01 sshd[2163]: Connection closed by authenticating user root 198.51.100.23 port 50131 [preauth]
+Nov 12 08:14:39 web01 sshd[2170]: Invalid user ubuntu from 198.51.100.23 port 50134
+Nov 12 08:14:41 web01 sshd[2170]: Failed password for invalid user ubuntu from 198.51.100.23 port 50134 ssh2
+Nov 12 08:14:42 web01 sshd[2170]: Connection closed by invalid user ubuntu 198.51.100.23 port 50134 [preauth]
+Nov 12 08:14:45 web01 sshd[2177]: Invalid user guest from 198.51.100.23 port 50137
+Nov 12 08:14:47 web01 sshd[2177]: Failed password for invalid user guest from 198.51.100.23 port 50137 ssh2
+Nov 12 08:14:48 web01 sshd[2177]: Connection closed by invalid user guest 198.51.100.23 port 50137 [preauth]
+Nov 12 08:14:51 web01 sshd[2184]: Invalid user postgres from 198.51.100.23 port 50140
+Nov 12 08:14:53 web01 sshd[2184]: Failed password for invalid user postgres from 198.51.100.23 port 50140 ssh2
+Nov 12 08:14:54 web01 sshd[2184]: Connection closed by invalid user postgres 198.51.100.23 port 50140 [preauth]
+Nov 12 09:02:14 web01 sshd[2191]: Failed password for root from 203.0.113.45 port 50143 ssh2
+Nov 12 09:02:18 web01 sshd[2198]: Failed password for root from 203.0.113.45 port 50146 ssh2
+Nov 12 09:02:22 web01 sshd[2205]: Failed password for root from 203.0.113.45 port 50149 ssh2
+Nov 12 09:02:25 web01 sshd[2212]: Invalid user support from 203.0.113.45 port 50152
+Nov 12 09:02:27 web01 sshd[2212]: Failed password for invalid user support from 203.0.113.45 port 50152 ssh2
+Nov 12 09:02:30 web01 sshd[2219]: Invalid user support from 203.0.113.45 port 50155
+Nov 12 09:02:32 web01 sshd[2219]: Failed password for invalid user support from 203.0.113.45 port 50155 ssh2
+Nov 12 09:02:36 web01 sshd[2226]: Failed password for deploy from 203.0.113.45 port 50158 ssh2
+Nov 12 09:02:40 web01 sshd[2233]: Failed password for deploy from 203.0.113.45 port 50161 ssh2
+Nov 12 09:02:44 web01 sshd[2240]: Failed password for deploy from 203.0.113.45 port 50164 ssh2
+Nov 12 09:02:48 web01 sshd[2247]: Failed password for deploy from 203.0.113.45 port 50167 ssh2
+Nov 12 09:02:53 web01 sshd[2254]: Accepted password for deploy from 203.0.113.45 port 50170 ssh2
+Nov 12 09:02:53 web01 sshd[2254]: pam_unix(sshd:session): session opened for user deploy(uid=1005) by (uid=0)
+Nov 12 09:04:03 web01 sshd[2254]: Received disconnect from 203.0.113.45 port 50170:11: disconnected by user
+Nov 12 09:04:03 web01 sshd[2254]: Disconnected from user deploy 203.0.113.45 port 50170
+Nov 12 09:04:03 web01 sshd[2254]: pam_unix(sshd:session): session closed for user deploy
+Nov 12 10:20:08 web01 sshd[2261]: Invalid user pi from 198.51.100.77 port 50173
+Nov 12 10:20:10 web01 sshd[2261]: Failed password for invalid user pi from 198.51.100.77 port 50173 ssh2
+Nov 12 10:20:11 web01 sshd[2261]: Connection closed by invalid user pi 198.51.100.77 port 50173 [preauth]
+Nov 12 10:20:14 web01 sshd[2268]: Invalid user git from 198.51.100.77 port 50176
+Nov 12 10:20:16 web01 sshd[2268]: Failed password for invalid user git from 198.51.100.77 port 50176 ssh2
+Nov 12 10:20:17 web01 sshd[2268]: Connection closed by invalid user git 198.51.100.77 port 50176 [preauth]
+Nov 12 11:00:31 web01 sshd[2275]: Accepted publickey for carol from 192.168.1.42 port 60012 ssh2: RSA SHA256:Zt7pW2kLq9xV4mN8bC1rY6uH3sJ0dF5gA2eK7oP9iQ4
+Nov 12 11:00:31 web01 sshd[2275]: pam_unix(sshd:session): session opened for user carol(uid=1003) by (uid=0)
+Nov 12 11:47:12 web01 sshd[2275]: Received disconnect from 192.168.1.42 port 60012:11: disconnected by user
+Nov 12 11:47:12 web01 sshd[2275]: pam_unix(sshd:session): session closed for user carol
+Nov 12 12:00:01 web01 CRON[2650]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 12 12:00:01 web01 CRON[2650]: pam_unix(cron:session): session closed for user root
+Nov 12 12:45:50 web01 sshd[2282]: Accepted password for bob from 10.0.0.25 port 41990 ssh2
+Nov 12 12:45:50 web01 sshd[2282]: pam_unix(sshd:session): session opened for user bob(uid=1002) by (uid=0)
+Nov 12 13:10:03 web01 sshd[2107]: pam_unix(sshd:session): session closed for user alice
+Nov 12 13:52:19 web01 sshd[2282]: pam_unix(sshd:session): session closed for user bob
